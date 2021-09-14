@@ -1,0 +1,107 @@
+<html>
+<head>
+<style>
+header {
+     text-align:center;
+     background-color:#6495ED;
+     color:#2F4F4F;
+   }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+footer {
+   text-align:center;
+   background-color:#6495ED;
+   }
+
+</style>
+</head>
+<body>
+<header>
+  <h1> PEMROGRAMAN WEB </h1>
+
+<ul>
+  <li><a href="tess.html">Home</a></li>
+  <li><a href="fromdaftar2.html">Daftar</a></li>
+  <li><a href="">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+</header>
+<section>
+ <html>
+<head></head>
+
+<body>
+ <from>
+  <h1> FORM DAFTAR </h1>
+  <label> Nama Depan </label>
+  <input type= "text">
+  <label> Nama Belakang </label>
+  <input type= "text"> <br> </br>
+  <label> Tempat Lahir </label>
+  <input list="tempatlahir">
+   <datalist id="tempatlahir">
+    <option value="Kab Madiun">
+    <option value="Kab Magetan">
+    <option value="Kab Ngawi">
+    <option value="Kab Ponorogo">
+    <option value="Kota Madiun">
+   </datalist> <br> </br>
+
+   <label> Tanggal Lahir </label>
+   <input type="date"> <br> </br>
+   <label> Jenis Kelamin </label>
+   <input type="radio" id="laki - laki">
+   <label> Laki - laki </label>
+   <input type="radio" id="perempuan">
+   <label> Perempuan </label> <br> </br>
+
+   <label> Hobby </label>
+   <input type="checkbox" id="olahraga" value="olahraga">
+   <label> Olahraga </label>
+   <input type="checkbox" id="membaca" value="membaca">
+   <label> Membaca </label>
+   <input type="checkbox" id="game" value="game">
+   <label> Game </label> <br> </br>
+   <label> Alamat </label>
+   <textarea rows="3"> </textarea> <br> </br>
+   
+   <input type="submit" value="Daftar">
+   <input type="Reset">
+ </from>
+
+</body>
+</html>
+ </section>
+ <footer>
+  <p> Created by Wahyu Ali M. <br>Kelas XII RPL 2 </br> </p>
+ </footer>
+</body>
+</html>
